@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    
+}
+
+.adobeimg img,.d2 img,.jv img,.market img,.html img{
+    width: 70%;
+    margin-bottom: 2vh;
+}
+
+.adobeimg,.jv,.d2,.market,.html {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-flow: row wrap;
+}
+
+.row {
+    padding: 1%;
+}
+
+.col img{
+    transition: 0.1s linear;
+}
+.col img:hover{
+    transform: scale(1.2);
+}
